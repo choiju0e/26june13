@@ -3,8 +3,8 @@
 <head>
 <meta property="og:title" content="지환 ♥ 민영 결혼합니다">
 <meta property="og:description" content="2026년 6월 13일, 소중한 날에 초대합니다">
-<meta property="og:image" content="https://26june13.netlify.app/img/og.jpg">
-<meta property="og:url" content="https://26june13.netlify.app">
+<meta property="og:image" content="https://www.sumomo.store/img/og.jpg">
+<meta property="og:url" content="https://www.sumomo.store">
 <meta property="og:type" content="website">
 
 <meta charset="UTF-8" />
@@ -525,31 +525,31 @@ body {
   }
 
   /* ── 카카오톡 공유 ── */
-  function shareKakao() {
-    Kakao.Share.sendDefault({
-      objectType: 'feed',
-      content: {
-        title: '지환 ♥ 민영 결혼합니다',
-        description: '2026년 6월 13일, 소중한 날에 초대합니다',
-        imageUrl: 'https://26june13.netlify.app/img/og.jpg',
-        link: {
-          mobileWebUrl: 'https://26june13.netlify.app',
-          webUrl: 'https://26june13.netlify.app',
-        },
+ function shareKakao() {
+  Kakao.Share.sendDefault({
+    objectType: 'feed',
+    content: {
+      title: '지환 ♥ 민영 결혼합니다',
+      description: '2026년 6월 13일, 소중한 날에 초대합니다',
+      imageUrl: 'https://www.sumomo.store/img/og.jpg',
+      link: {
+        mobileWebUrl: 'https://www.sumomo.store',
+        webUrl: 'https://www.sumomo.store',
       },
-      buttons: [{
-        title: '청첩장 보러가기',
-        link: {
-          mobileWebUrl: 'https://26june13.netlify.app',
-          webUrl: 'https://26june13.netlify.app',
-        },
-      }],
-    });
-  }
+    },
+    buttons: [{
+      title: '청첩장 보러가기',
+      link: {
+        mobileWebUrl: 'https://www.sumomo.store',
+        webUrl: 'https://www.sumomo.store',
+      },
+    }],
+  });
+}
 
   /* ── 링크 복사 ── */
   function shareLink() {
-    var url = 'https://26june13.netlify.app';
+    var url = 'https://www.sumomo.store';
     if (navigator.clipboard) {
       navigator.clipboard.writeText(url).then(function() { showToast('링크가 복사되었습니다 ✓'); });
     } else {
